@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ahoj.gif" />
+    <None Remove="ahoj.jpg" />
+    <None Remove="holy.jpg" />
+    <None Remove="ico2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ahoj.gif" />
+    <Resource Include="ahoj.jpg" />
+    <Resource Include="holy.jpg" />
+    <Resource Include="ico2.jpg" />
+  </ItemGroup>
+
+</Project>
